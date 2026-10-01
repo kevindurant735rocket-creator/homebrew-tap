@@ -1,8 +1,11 @@
 class Alibi < Formula
   desc "Check what an AI coding agent wrote about its own work against what it did"
   homepage "https://github.com/kevindurant735rocket-creator/alibi"
-  url "https://github.com/kevindurant735rocket-creator/alibi/archive/refs/tags/v0.1.0.tar.gz"
-  version "0.1.0"
+  # Pinned to the release, not to "main": Homebrew installs a version, and a
+  # formula pointing at a moving branch makes an upgrade impossible to reason
+  # about. Bump the tag with each release.
+  url "https://github.com/kevindurant735rocket-creator/alibi/archive/refs/tags/v0.2.0.tar.gz"
+  version "0.2.0"
   license "MIT"
   head "https://github.com/kevindurant735rocket-creator/alibi.git", branch: "main"
 
