@@ -4,8 +4,8 @@ class Alibi < Formula
   # Pinned to the release, not to "main": Homebrew installs a version, and a
   # formula pointing at a moving branch makes an upgrade impossible to reason
   # about. Bump the tag with each release.
-  url "https://github.com/kevindurant735rocket-creator/alibi/archive/refs/tags/v0.2.0.tar.gz"
-  version "0.2.0"
+  url "https://github.com/kevindurant735rocket-creator/alibi/archive/refs/tags/v0.2.1.tar.gz"
+  version "0.2.1"
   license "MIT"
   head "https://github.com/kevindurant735rocket-creator/alibi.git", branch: "main"
 
